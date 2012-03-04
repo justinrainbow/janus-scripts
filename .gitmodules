@@ -7,3 +7,9 @@
 [submodule "php-xdebug"]
 	path = php-xdebug
 	url = git://github.com/justinrainbow/php-xdebug.vim.git
+[submodule "phpunit"]
+	path = phpunit
+	url = https://github.com/docteurklein/vim-phpunit.git
+[submodule "behat"]
+	path = behat
+	url = https://github.com/veloce/vim-behat.git

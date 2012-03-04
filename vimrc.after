@@ -1,0 +1,13 @@
+" Symfony configs
+let g:symfony_app_console_caller= "php"
+let g:symfony_app_console_path= "app/console"
+
+" phpunit compilation
+com! -nargs=* Phpunit make -c app <q-args> | cw
+
+" php-namespace helpers
+imap <buffer> <F6> <C-O>:call PhpInsertUse()<CR>
+map <buffer> <F6> :call PhpInsertUse()<CR>
+
+" Behat configuration
+let feature_filetype='behat'
