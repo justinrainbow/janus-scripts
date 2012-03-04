@@ -1,0 +1,9 @@
+[submodule "php-namespace"]
+	path = php-namespace
+	url = https://github.com/arnaud-lb/vim-php-namespace.git
+[submodule "symfony"]
+	path = symfony
+	url = https://github.com/docteurklein/vim-symfony.git
+[submodule "php-xdebug"]
+	path = php-xdebug
+	url = git://github.com/justinrainbow/php-xdebug.vim.git
