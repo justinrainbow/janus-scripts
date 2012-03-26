@@ -13,3 +13,6 @@
 [submodule "behat"]
 	path = behat
 	url = https://github.com/veloce/vim-behat.git
+[submodule "align"]
+	path = align
+	url = https://github.com/pix/vim-align.git
