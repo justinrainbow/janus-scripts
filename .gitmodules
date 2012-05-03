@@ -16,3 +16,6 @@
 [submodule "align"]
 	path = align
 	url = https://github.com/pix/vim-align.git
+[submodule "php-doc"]
+	path = php-doc
+	url = git://github.com/justinrainbow/php-doc.vim.git

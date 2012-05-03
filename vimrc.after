@@ -5,6 +5,9 @@ let g:symfony_app_console_path= "app/console"
 " phpunit compilation
 com! -nargs=* Phpunit make -c app <q-args> | cw
 
+" PHP Doc configuration
+inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
+
 " php-namespace helpers
 imap <buffer> <F6> <C-O>:call PhpInsertUse()<CR>
 map <buffer> <F6> :call PhpInsertUse()<CR>
